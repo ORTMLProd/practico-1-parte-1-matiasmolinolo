@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "practico-1-parte-1-matiasmolinolo"
+version = "0.1.0"
+description = ""
+authors = ["Matias Molinolo <matiasmolinolo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "2.25.1"
+beautifulsoup4 = "4.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+venvPath = "/Users/matiasmolinolo/Library/Caches/pypoetry/virtualenvs/"
+venv="practico-1-parte-1-matiasmolinolo-0fQI5XQL-py3.8"
